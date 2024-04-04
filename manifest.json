@@ -1,0 +1,13 @@
+{
+    "name": "Bin and Jay's Stretch Reminder",
+    "description": "Reminds you to stretch",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "stretch.html",
+      "default_icon": "psyduckresized.png"
+    },
+    "permissions": ["storage", "unlimitedStorage"],
+    "scripts": "background.js",
+    "persistent": true
+  }
