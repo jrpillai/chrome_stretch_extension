@@ -1,20 +1,21 @@
 body {
-    background-color: #8aa4e4; /* Choose your desired background color */
-    font-family: Arial, sans-serif; /* Default font family for the entire document */
+    background-image: url("image.png"); 
+    font-family: Arial, sans-serif;
+    
+
   }
   
   /* Change font for h1 */
   h1 {
-<<<<<<< HEAD
-    font-size:5px
-=======
->>>>>>> 9bc0a17ff2fa19a05d1e9de71a2e2aec2cf067a9
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Change the font for h1 */
+
+    font-size:15px;
+    color :rgb(15, 105, 105);
+    font-family: Impact, sans-serif; /* Change the font for h1 */
   }
   
   /* Style buttons */
   button {
-    border-radius: 1px;
+    border-radius: 5px;
     padding: 5px 10px;
     margin: 5px;
     font-size: 10px;
