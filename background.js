@@ -18,6 +18,7 @@ document.getElementById('min60').addEventListener("click", function(){
 document.getElementById('cancelAlarm').addEventListener("click", function(){
   console.log("Alarm is cancalled!")
   chrome.alarms.clear("timeToStretch");
+  window.alert("Your stretch alarm is cancelled!");
 })
 
 

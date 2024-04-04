@@ -1,13 +1,10 @@
 body {
     background-image: url("image.png"); 
     font-family: Arial, sans-serif;
-    
-
   }
   
   /* Change font for h1 */
   h1 {
-
     font-size:15px;
     color :rgb(15, 105, 105);
     font-family: Impact, sans-serif; /* Change the font for h1 */
