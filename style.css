@@ -1,5 +1,5 @@
 body {
-    background-image: url("image.png"); 
+    background-image: url("semitransparent.png"); 
     font-family: Arial, sans-serif;
   }
   
@@ -17,4 +17,15 @@ body {
     margin: 5px;
     font-size: 10px;
     cursor: pointer;
+  }
+
+  /* Counter Ring Style */
+  .counter-ring {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #11c511;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
