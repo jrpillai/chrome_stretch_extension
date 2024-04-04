@@ -23,6 +23,14 @@
             justify-content: center;
             margin: 20px 0;
             margin-bottom: 30px; /* Increased space after images */
+            max-width: 500px; /* Fixes the size of the container */
+        }
+        /* Ensure images within containers are centered and have a reasonable size */
+        .image-container img, .link-image-container img, .tenor-gif-embed img, iframe {
+            display: block;
+            max-width: 100%; /* Ensures image does not exceed its container */
+            height: auto; /* Maintains aspect ratio */
+            margin: 0 auto; /* Centers the image */
         }
         .links a { /* Targets links within the .links container */
             font-size: 20px; /* Increases the font size of the links */
