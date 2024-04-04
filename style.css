@@ -1,0 +1,18 @@
+body {
+    background-color: #8aa4e4; /* Choose your desired background color */
+    font-family: Arial, sans-serif; /* Default font family for the entire document */
+  }
+  
+  /* Change font for h1 */
+  h1 {
+    font-size:5px
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Change the font for h1 */
+  }
+  
+  /* Style buttons */
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
