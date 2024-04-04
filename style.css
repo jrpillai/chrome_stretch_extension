@@ -5,7 +5,10 @@ body {
   
   /* Change font for h1 */
   h1 {
+<<<<<<< HEAD
     font-size:5px
+=======
+>>>>>>> 9bc0a17ff2fa19a05d1e9de71a2e2aec2cf067a9
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Change the font for h1 */
   }
   
