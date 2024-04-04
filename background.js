@@ -17,15 +17,14 @@ document.getElementById('min60').addEventListener("click", function(){
 
 document.getElementById('cancelAlarm').addEventListener("click", function(){
   console.log("Alarm is cancalled!")
-  chrome.alarms.clear("timetoStretch");
+  chrome.alarms.clear("timeToStretch");
 })
 
-// chrome.alarms.create('timeToStretch', { periodInMinutes: 1 }); 
 
 chrome.alarms.onAlarm.addListener((alarm) => {
   if (alarm.name === 'timeToStretch') {
     chrome.windows.create({
-      url: 'https://www.stretching-exercises-guide.com/',
+      url: 'finalpage.html',
       type: 'popup'
     });
   }
