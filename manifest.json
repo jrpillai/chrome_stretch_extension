@@ -5,10 +5,13 @@
     "manifest_version": 3,
     "action": {
       "default_popup": "stretch.html",
-      "default_icon": "psyduckresized.png"
+      "default_icon": "snorlax128.png"
     },
     "permissions": ["storage", "unlimitedStorage", "alarms", "windows"],
     "background": {
       "service_worker": "background.js"
+    },
+    "icons": {
+      "128": "snorlax128.png"
     }
   }

@@ -1,5 +1,5 @@
 body {
-    background-image: url("semitransparent.png"); 
+    background-image: url("image.png"); 
     font-family: Arial, sans-serif;
   }
   
@@ -7,7 +7,10 @@ body {
   h1 {
     font-size:15px;
     color :rgb(15, 105, 105);
-    font-family: Impact, sans-serif; /* Change the font for h1 */
+    font-family: Helvetica, sans-serif; /* Change the font for h1 */
+    letter-spacing: 0.5px;
+    background-color: rgba(255, 223, 0, 0.90);
+    justify-content: center;
   }
   
   /* Style buttons */
